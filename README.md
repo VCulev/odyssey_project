@@ -1,5 +1,8 @@
 # Odyssey Project
 
+> ⚠️ This repository is strictly for demonstration purposes and is not meant for you (as a bootcamp participant) to copy from. Use it wisely and get some inspiration, but do not copy-paste. The current state can be improved and there are a lot of ways to do so.
+Don't be limited by this codebase, be creative and make it your own.
+
 The Odyssey Project is a comprehensive movie recommendation system built with Python. It involves web scraping, data processing, data storage, API creation, and testing, all following clean code principles.
 
 ## Project Description
@@ -10,7 +13,7 @@ The Odyssey Project is designed to provide movie recommendations by scraping pop
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/odyssey_project.git
+    git clone https://github.com/eduard-balamatiuc/odyssey_project.git
     cd odyssey_project
     ```
 
@@ -26,31 +29,9 @@ The Odyssey Project is designed to provide movie recommendations by scraping pop
     ```
 
 ## Running the Project
-
-1. **Web Scraping**
-    - Run the scraper script to collect movie data:
-    ```bash
-    python scraper.py
-    ```
-
-2. **Data Processing**
-    - Run the data processing script to clean and standardize the movie data:
-    ```bash
-    python data_processing.py
-    ```
-
-3. **Start the API**
-    - Run the API server:
-    ```bash
-    python api.py
-    ```
-
-## Testing the Project
-
-1. **Run Tests with Tox**
-    ```bash
-    tox
-    ```
+```bash
+python api.py
+```
 
 ## File Structure
 
@@ -62,23 +43,6 @@ odyssey_project/
 ├── data_processing.py
 ├── api.py
 ├── test_data_processing.py
-├── data_storage/
-│   └── movies.json
-└── venv/
+└──data_storage/
+    └── movies.json
 ```
-
-## Dependencies
-
-List all project dependencies in the `requirements.txt` file, including:
-- BeautifulSoup
-- Flask (or any other web framework you choose for the API)
-- Tox (for testing)
-- Any other libraries you use in your project
-
-## Notes
-
-- Follow clean code guidelines throughout the project.
-- Ensure all functions and methods have appropriate docstrings.
-- Handle exceptions and edge cases gracefully.
-
-By following this structured approach, you will create a robust and maintainable movie recommendation system. Happy coding!
