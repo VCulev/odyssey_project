@@ -30,7 +30,7 @@ The Odyssey Project is designed to provide movie recommendations by scraping pop
 
 ## Running the Project
 ```bash
-python api.py
+python main.py
 ```
 
 ## File Structure
