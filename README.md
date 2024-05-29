@@ -1,7 +1,5 @@
 # Odyssey Project
 
-> ⚠️ This repository is strictly for demonstration purposes and is not meant for you (as a bootcamp participant) to copy from. Use it wisely and get some inspiration, but do not copy-paste. The current state can be improved and there are a lot of ways to do so.
-Don't be limited by this codebase, be creative and make it your own.
 
 The Odyssey Project is a comprehensive movie recommendation system built with Python. It involves web scraping, data processing, data storage, API creation, and testing, all following clean code principles.
 
@@ -13,13 +11,13 @@ The Odyssey Project is designed to provide movie recommendations by scraping pop
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/eduard-balamatiuc/odyssey_project.git
+    git clone https://github.com/VCulev/odyssey_project.git
     cd odyssey_project
     ```
 
 2. **Create a Virtual Environment**
     ```bash
-    python3.12 -m venv venv
+    python3.11 -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
@@ -33,16 +31,38 @@ The Odyssey Project is designed to provide movie recommendations by scraping pop
 python main.py
 ```
 
+## Runing Tests
+
+```bash
+cd tests
+pytest test_api_routes.py
+```
+Make sure the server is running
 ## File Structure
 
 ```
 odyssey_project/
-├── README.md
-├── requirements.txt
-├── scraper.py
-├── data_processing.py
-├── api.py
-├── test_data_processing.py
-└──data_storage/
-    └── movies.json
+│
+├── app_config/
+│   ├── __init__.py
+│   ├── configure.py
+│   ├── routes.py
+│   └── settings.json
+│
+├── process_data/
+│   ├── __init__.py
+│   └── data_process.py
+│
+├── scraping_data/
+│   ├── __init__.py
+│   └── movies_scrape.py
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_api_routes.py
+│
+├── .gitignore
+├── main.py
+├── movies.json
+└── README.md
 ```
