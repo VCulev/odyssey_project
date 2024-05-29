@@ -1,6 +1,6 @@
 {
   "HOST": "localhost",
-  "PORT": 4000,
+  "PORT": 8000,
   "WORKERS": 1,
   "FAST": false,
   "DEBUG": false

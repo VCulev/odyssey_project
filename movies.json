@@ -1,0 +1,121 @@
+{
+    "2010": [
+        {
+            "name": "Re\u021beaua de socializare",
+            "type": "PG-13",
+            "duration": [
+                "2h",
+                "0min"
+            ],
+            "genre": "Re\u021beaua de socializarePG-132\u00a0oreDram\u0103"
+        },
+        {
+            "name": "Povestea juc\u0103riilor 3",
+            "type": "G",
+            "duration": [
+                "1h",
+                "40min"
+            ],
+            "genre": "Ac\u021biune"
+        },
+        {
+            "name": "\u00cenceputul",
+            "type": "PG-13",
+            "duration": [
+                "2h",
+                "22min"
+            ],
+            "genre": "Ac\u021biune"
+        },
+        {
+            "name": "Cum s\u0103 \u00ee\u021bi dresezi dragonulP",
+            "type": "G",
+            "duration": [
+                "1h",
+                "33min"
+            ],
+            "genre": "Ac\u021biune"
+        },
+        {
+            "name": "Discursul regelui",
+            "type": "Unknown",
+            "duration": [
+                "1h",
+                "50min"
+            ],
+            "genre": "De comedie"
+        },
+        {
+            "name": "Leb\u0103da neagr\u0103",
+            "type": "R",
+            "duration": [
+                "1h",
+                "43min"
+            ],
+            "genre": "De groaz\u0103"
+        },
+        {
+            "name": "Adev\u0103ratul curaj",
+            "type": "PG-13",
+            "duration": [
+                "1h",
+                "50min"
+            ],
+            "genre": "Ac\u021biune"
+        },
+        {
+            "name": "M\u00e2inile tat\u0103lui meu",
+            "type": "R",
+            "duration": [
+                "1h",
+                "40min"
+            ],
+            "genre": "Dram\u0103"
+        },
+        {
+            "name": "127 de ore",
+            "type": "R",
+            "duration": [
+                "1h",
+                "30min"
+            ],
+            "genre": "Ac\u021biune"
+        },
+        {
+            "name": "Lupt\u0103torul",
+            "type": "R",
+            "duration": [
+                "1h",
+                "55min"
+            ],
+            "genre": "Ac\u021biune"
+        },
+        {
+            "name": "Insula Shutter",
+            "type": "R",
+            "duration": [
+                "2h",
+                "17min"
+            ],
+            "genre": "De groaz\u0103"
+        },
+        {
+            "name": "Scott Pilgrim \u00eempotriva tuturor",
+            "type": "PG-13",
+            "duration": [
+                "1h",
+                "48min"
+            ],
+            "genre": "Ac\u021biune"
+        },
+        {
+            "name": "Ora\u015ful",
+            "type": "R",
+            "duration": [
+                "2h",
+                "4min"
+            ],
+            "genre": "Ac\u021biune"
+        }
+    ]
+}
